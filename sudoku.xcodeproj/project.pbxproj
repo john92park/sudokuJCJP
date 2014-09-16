@@ -21,6 +21,7 @@
 		E876ADCA19C8B1F2007CD188 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E876ADAC19C8B1F2007CD188 /* UIKit.framework */; };
 		E876ADD219C8B1F2007CD188 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = E876ADD019C8B1F2007CD188 /* InfoPlist.strings */; };
 		E876ADD419C8B1F2007CD188 /* sudokuTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E876ADD319C8B1F2007CD188 /* sudokuTests.m */; };
+		E876ADDF19C8B205007CD188 /* CPGridView.m in Sources */ = {isa = PBXBuildFile; fileRef = E876ADDE19C8B205007CD188 /* CPGridView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,8 @@
 		E876ADCF19C8B1F2007CD188 /* sudokuTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "sudokuTests-Info.plist"; sourceTree = "<group>"; };
 		E876ADD119C8B1F2007CD188 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		E876ADD319C8B1F2007CD188 /* sudokuTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = sudokuTests.m; sourceTree = "<group>"; };
+		E876ADDD19C8B205007CD188 /* CPGridView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CPGridView.h; sourceTree = "<group>"; };
+		E876ADDE19C8B205007CD188 /* CPGridView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CPGridView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -112,6 +115,8 @@
 		E876ADAE19C8B1F2007CD188 /* sudoku */ = {
 			isa = PBXGroup;
 			children = (
+				E876ADDD19C8B205007CD188 /* CPGridView.h */,
+				E876ADDE19C8B205007CD188 /* CPGridView.m */,
 				E876ADB719C8B1F2007CD188 /* CPAppDelegate.h */,
 				E876ADB819C8B1F2007CD188 /* CPAppDelegate.m */,
 				E876ADBA19C8B1F2007CD188 /* Main.storyboard */,
@@ -253,6 +258,7 @@
 				E876ADB519C8B1F2007CD188 /* main.m in Sources */,
 				E876ADB919C8B1F2007CD188 /* CPAppDelegate.m in Sources */,
 				E876ADBF19C8B1F2007CD188 /* CPViewController.m in Sources */,
+				E876ADDF19C8B205007CD188 /* CPGridView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
